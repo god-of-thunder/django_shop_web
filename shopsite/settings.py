@@ -60,7 +60,7 @@ MEDIA_URL = '/main/static/images/'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(MEDIA_ROOT, 'templates'),os.path.join(MEDIA_ROOT, 'static').replace('\\', '/'),'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
