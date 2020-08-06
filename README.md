@@ -39,3 +39,25 @@ Django全端製作一個購物網站
 12.賣家後台上架商品功能
 
 13.賣家限時商品特賣功能
+
+1.首頁
+![](./demo_sample_images/首頁.png)
+2.註冊
+![](./demo_sample_images/註冊.png)
+3.驗證信
+![](./demo_sample_images/驗證信.png)
+4.登入
+![](./demo_sample_images/登入.png)
+5.重新寄出驗證信
+![](./demo_sample_images/重新寄出驗證信.png)
+6.上架商品
+![](./demo_sample_images/上架商品.png)
+7.搜尋
+![](./demo_sample_images/搜尋.png)
+8.商品頁面
+![](./demo_sample_images/商品頁面.png)
+9.購物車頁面
+![](./demo_sample_images/購物車頁面.png)
+10.限時特賣上架
+![](./demo_sample_images/限時特賣上架.png)
+
