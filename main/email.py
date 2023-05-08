@@ -31,8 +31,8 @@ def user_send_mail(account):
                               account=account)
     systemconfig.save()
     email_url = base_url + "enable/"+account_code
-    send_mail('王彥文 Shop 您好！帳號驗證啟用信',
-              '''{}您好！\n\n　　歡迎您加入 王彥文 Shop！請點擊以下連結以啟用帳號享受全部的功能！\n\n　　{}\n\n祝 順心\n\n 王彥文 Shop 營運團隊敬上'''.format(account_name,email_url),
+    send_mail('Vincent Shop 您好！帳號驗證啟用信',
+              '''{}您好！\n\n　　歡迎您加入 Vincent Shop！請點擊以下連結以啟用帳號享受全部的功能！\n\n　　{}\n\n祝 順心\n\n Vincent Shop 營運團隊敬上'''.format(account_name,email_url),
               EMAIL_HOST_USER,
               [account_email],
               fail_silently=False)
@@ -44,8 +44,8 @@ def user_patch_email(email):
     account_code = hash_code(account)
     SystemConfig.objects.filter(account=account).update(key1=account_code)
     email_url=base_url + "enable/"+account_code
-    send_mail('王彥文 Shop 您好！帳號驗證啟用信',
-              '''{}您好！\n\n　　歡迎您加入 王彥文 Shop！請點擊以下連結以啟用帳號享受全部的功能！\n\n　　{}\n\n祝 順心\n\n 王彥文 Shop 營運團隊敬上'''.format(account_name,email_url),
+    send_mail('Vincent Shop 您好！帳號驗證啟用信',
+              '''{}您好！\n\n　　歡迎您加入 Vincent Shop！請點擊以下連結以啟用帳號享受全部的功能！\n\n　　{}\n\n祝 順心\n\n Vincent Shop 營運團隊敬上'''.format(account_name,email_url),
               EMAIL_HOST_USER,
               [email],
               fail_silently=False)
